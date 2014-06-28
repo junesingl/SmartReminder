@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.smartreminder.app.controller.AccountViewController" >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Register"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:textColor="#808080" />
+
+    <ImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/user_512"
+        android:layout_marginLeft="48dp" />
+
+    <EditText
+        android:id="@+id/accountNameView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:enabled="true"
+        android:hint="set account name"
+        android:layout_gravity="center"
+        android:singleLine="true"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_marginBottom="-8dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginLeft="8dp"
+        android:clickable="false" />
+
+    <ImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:id="@+id/imageView2"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/key_512" />
+
+    <EditText
+        android:id="@+id/passwordView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:enabled="true"
+        android:hint="set password"
+        android:layout_gravity="center"
+        android:singleLine="true"
+
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_marginRight="48dp"
+        android:layout_marginBottom="-8dp"
+        android:layout_marginLeft="8dp"
+        android:clickable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Create your own account."
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:singleLine="false"
+        android:textColor="#c0c0c0"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Synchronize events accross devices and more...."
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:textColor="#c0c0c0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="(Coming soon....)"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:textColor="#c0c0c0" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:text="Register"
+        android:id="@+id/registerButton"
+        android:layout_below="@+id/passwordView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        android:textColor="#ffffff"
+        android:background="#1ca2e6"
+        android:alpha="0.6" />
+
+</RelativeLayout>

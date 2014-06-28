@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.smartreminder.app.controller.AccountViewController" >
+    
+    <item android:id="@+id/action_login"
+        android:title="Log in"
+        android:orderInCategory="100"
+        android:showAsAction="always" />
+</menu>

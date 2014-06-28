@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.smartreminder.app.controller.EditViewController" >
+
+    <item android:id="@+id/action_save"
+        android:icon="@drawable/paper_plane_light_512"
+        android:title="Save"
+        android:orderInCategory="100"
+        android:showAsAction="always" />
+</menu>

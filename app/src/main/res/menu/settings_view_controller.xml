@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.smartreminder.app.controller.SettingsViewController" >
+    <item android:id="@+id/action_share"
+    android:icon="@drawable/share_512"
+    android:title="Tell friends about us"
+    android:orderInCategory="100"
+    android:showAsAction="always" />
+</menu>

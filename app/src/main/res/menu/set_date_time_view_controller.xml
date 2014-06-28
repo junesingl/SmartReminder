@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.smartreminder.app.controller.SetDateTimeViewController" >
+    
+    <item android:id="@+id/action_done"
+        android:title="Set"
+        android:orderInCategory="100"
+        android:showAsAction="always" />
+</menu>

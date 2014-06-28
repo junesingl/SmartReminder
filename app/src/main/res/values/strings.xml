@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SmartReminder</string>
+    <string name="app_version_tag">0.9.0</string>
+    <string name="app_version">SmartReminder 0.9.0 beta</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_event_view_controller">EventViewController</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_edit_view_controller">EditViewController</string>
+    <string name="title_activity_time_line_view_controller">TimeLineViewController</string>
+    <string name="title_activity_set_date_time_view_controller">SetDateTimeViewController</string>
+    <string name="title_activity_settings_view_controller">Settings</string>
+    <string name="title_activity_account_view_controller">Account</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

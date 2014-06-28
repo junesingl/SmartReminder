@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/itemTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp" />
+
+    <TextView
+        android:id="@+id/itemDaysLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/itemAlertTag"
+        android:layout_width="16dp"
+        android:layout_height="16dp" />
+</RelativeLayout>

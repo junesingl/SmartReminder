@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.smartreminder.app.controller.TimeLineViewController" >
+    <item android:id="@+id/action_add"
+        android:icon="@drawable/plus_512"
+        android:title="Add New Event"
+        android:orderInCategory="100"
+        android:showAsAction="always" />
+
+    <item android:id="@+id/action_account"
+        android:icon="@drawable/account_512"
+        android:title="Account"
+        android:orderInCategory="100"
+        android:showAsAction="never|" />
+
+    <item android:id="@+id/action_settings"
+        android:icon="@drawable/settings_512"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>
